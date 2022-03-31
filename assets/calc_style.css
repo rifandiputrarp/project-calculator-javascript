@@ -1,0 +1,105 @@
+body {
+    font-size: 2.5vh;
+    top: 15%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: #000b5c;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#calculator {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    padding: 1.5vh;
+    border: 5px solid #666666;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: silver;
+}
+
+.box {
+    text-align:right;
+    font-size: 2.8vh;
+    font-weight: bold;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    border: 2px solid #ffffff;
+    color: white;
+    background-color: #707070;
+}
+
+#last_operation_history {
+    height: 2.5vh;
+    font-size: 2vh;
+    text-align: right;
+    padding-right: 1.5vh;
+    color: rgb(177, 176, 176);
+    background-color: black;
+}
+
+button {
+    width:9vh;
+    height: 9vh;
+    font-weight: bold;
+    font-size: 3vh;
+    color: white;
+    background-color: #0000ff;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+#backspace_btn {
+    background-image: url("../assets/back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.7em;
+}
+
+button:hover {
+    background-color: #b8860b;
+}
+
+.operator {
+    background-color: #e68a00;
+}
+
+.operator:hover {
+    background-color: #d2691e;
+}
+
+#equal_sign {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    background-color: #8686fc;
+    text-align: center;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
